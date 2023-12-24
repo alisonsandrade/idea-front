@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assest/css/style.css" />
+
+    <!-- Bootstrap Font Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <title>IDEA 1.5 | Página Inicial</title>
+  </head>
+  <body>
+    <div class="d-flex flex-column wrapper">
+      <!-- header -->
+      <nav class="navbar navbar-expand-md navbar-light bg-light pb-0">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="assest/img/login_logo_simp.png"
+              alt=""
+              width="130"
+              height="76"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-column align-items-end"
+            id="navbarNavDropdown"
+          >
+            <!-- menu nav -->
+            <ul class="navbar-nav">
+              <li class="nav-item menu-nav">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Início</a
+                >
+              </li>
+              <li class="nav-item menu-nav">
+                <a class="nav-link" href="#">Órgão/Unidade</a>
+              </li>
+              <li class="nav-item menu-nav">
+                <a class="nav-link" href="#">Ajuda</a>
+              </li>
+              <li class="nav-item menu-nav">
+                <a class="nav-link" href="#">Sair</a>
+              </li>
+            </ul>
+
+            <!-- menu de ícones da nav -->
+            <ul class="navbar-nav flex-row">
+              <li class="nav-item">
+                <a class="nav-link py-1 pe-2 pe-sm-2" href="#"
+                  ><i class="bi bi-display"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-1 pe-2 pe-sm-2" href="#"
+                  ><i class="bi bi-clipboard-data"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-1 pe-2 pe-sm-2" href="#"
+                  ><i class="bi bi-bar-chart"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-1 pe-2 pe-sm-2" href="#"
+                  ><i class="bi bi-file-earmark-pdf"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-1 pe-2 pe-sm-2" href="#"
+                  ><i class="bi bi-mailbox"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-primary btn-sm dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Módulo Finalístico
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Finalístico</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Protocolo/Recepção</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Tabelas Básicas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Relatórios</a></li>
+                    <li><a class="dropdown-item" href="#">CION</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /. div container nav -->
+      </nav>
+
+      <!-- barra de informações e menu -->
+      <div class="bg-primary">
+        <!-- barra de informações -->
+        <div class="container">
+          <div class="row py-2">
+            <div class="col">
+              <i class="bi bi-building text-white ml-4"></i>
+              <small class="text-light"
+                >1ª Promotoria de Justiça de Cícero Dantas</small
+              >
+            </div>
+            <div class="col text-end">
+              <i class="bi bi-person-circle text-white"></i>
+              <small class="text-light">Alison da Silva Andrade</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- menu -->
+        <div class="bg-secondary">
+          <ul class="menu justify-content-center">
+            <li class="menu-item">
+              <div class="dropdown">
+                <button class="btn btn-outline-primary btn-sm px-4 text-white border-0 rounded-0 dropdown-toggle" type="button" id="dropdownMenuBtnCadastramento" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cadastramento
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuBtnCadastramento">
+                  <li><a class="dropdown-item" href="#">Atendimento</a></li>
+                  <li><a class="dropdown-item" href="#">Processo/Procedimento</a></li>
+                  <li><a class="dropdown-item" href="#">Documento</a></li>
+                  <li><a class="dropdown-item" href="#">Pessoa Física</a></li>
+                  <li><a class="dropdown-item" href="#">Pessoa Jurídica</a></li>
+                  <li><a class="dropdown-item" href="#">Atividade Não Procedimentais</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="dropdown">
+                <button class="btn btn-outline-primary btn-sm px-4 text-white border-0 rounded-0 dropdown-toggle" type="button" id="dropdownMenuConsulta" data-bs-toggle="dropdown" aria-expanded="false">
+                  Consulta
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuConsulta">
+                  <li><a class="dropdown-item" href="#">Consulta Geral</a></li>
+                  <li><a class="dropdown-item" href="#">Processo Judicial</a></li>
+                  <li><a class="dropdown-item" href="#">Pessoa Física</a></li>                  
+                  <li><a class="dropdown-item" href="#">Pessoa Jurídica</a></li>
+                  <li><a class="dropdown-item" href="#">Apoio Técnico</a></li>
+                  <li><a class="dropdown-item" href="#">Atividade Não Procedimentais</a></li>
+                  <li><a class="dropdown-item" href="#">Monitoramento por Órgão/Unidade</a></li>
+                  <li><a class="dropdown-item" href="#">Processo/Procedimento por Envolvido</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="dropdown">
+                <button class="btn btn-outline-primary btn-sm px-4 text-white border-0 rounded-0 dropdown-toggle" type="button" id="dropdownMenuDistribuicao" data-bs-toggle="dropdown" aria-expanded="false">
+                  Distribuição
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuDistribuicao">
+                  <li><a class="dropdown-item" href="#">Ausência</a></li>
+                  <li><a class="dropdown-item" href="#">Contador</a></li>
+                  <li><a class="dropdown-item" href="#">Equipe</a></li>                  
+                  <li><a class="dropdown-item" href="#">Exclusão</a></li>
+                  <li><a class="dropdown-item" href="#">Impedimento/Prevenção</a></li>
+                  <li><a class="dropdown-item" href="#">Movimentação Automática</a></li>
+                  <li><a class="dropdown-item" href="#">Mudança de Equipe em Lote</a></li>
+                  <li><a class="dropdown-item" href="#">Redistribuição</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item">
+              <a class="btn btn-outline-primary btn-sm text-white border-0 rounded-0 px-4" href="#" role="button"
+                >Sessão de Julgamento</a
+              >
+            </li>
+            <li class="menu-item">
+              <div class="dropdown">
+                <button class="btn btn-outline-primary btn-sm px-4 text-white border-0 rounded-0 dropdown-toggle" type="button" id="dropdownMenuOpcoes" data-bs-toggle="dropdown" aria-expanded="false">
+                  Demais Opções
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuOpcoes">
+                  <li><a class="dropdown-item" href="#">Capa</a></li>
+                  <li><a class="dropdown-item" href="#">Consulta de PDF Únicos Gerados</a></li>
+                  <li><a class="dropdown-item" href="#">Encaminhamento em Lote</a></li>                  
+                  <li><a class="dropdown-item" href="#">Extrato</a></li>
+                  <li><a class="dropdown-item" href="#">Guia de Remessa</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <main class="flex-fill container-md shadow p-4 my-md-3 bg-white rounded">
+        <h1 class="title-h1">Peticionamento Eletrônico Pendentes de Envio</h1>
+
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">IDEA/Processo</th>
+              <th scope="col">Criação</th>
+              <th scope="col">Limite</th>
+              <th scope="col">Classe</th>
+              <th scope="col">Assunto</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr onclick="location.href='#'" style="cursor: pointer;" class="align-middle" class="align-middle">
+              <th scope="row"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
+              <td>
+                <span>656.9.492337/2023</span><br>
+                <span>8001109-18.2023.8.05.0057</span>
+              </td>
+              <td>19/12/2023</td>
+              <td>28/02/2024</td>
+              <td>PROCESSO CÍVEL E DO TRABALHO > Outros Procedimentos > Atos e expedientes > Petição Cível (241)</td>
+              <td>DIREITO CIVIL > Coisas > Propriedade > Aquisição > Acessão (10456)</td>
+            </tr>
+            <tr onclick="location.href='#2'" style="cursor: pointer;" class="align-middle">
+              <th scope="row"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
+              <td>
+                <span>656.9.492337/2023</span><br>
+                <span>8001109-18.2023.8.05.0057</span>
+              </td>
+              <td>19/12/2023</td>
+              <td>28/02/2024</td>
+              <td>PROCESSO CÍVEL E DO TRABALHO > Outros Procedimentos > Atos e expedientes > Petição Cível (241)</td>
+              <td>DIREITO CIVIL > Coisas > Propriedade > Aquisição > Acessão (10456)</td>
+            </tr>
+            <tr onclick="location.href='#'" style="cursor: pointer;" class="align-middle">
+              <th scope="row"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
+              <td>
+                <span>656.9.492337/2023</span><br>
+                <span>8001109-18.2023.8.05.0057</span>
+              </td>
+              <td>19/12/2023</td>
+              <td>28/02/2024</td>
+              <td>PROCESSO CÍVEL E DO TRABALHO > Outros Procedimentos > Atos e expedientes > Petição Cível (241)</td>
+              <td>DIREITO CIVIL > Coisas > Propriedade > Aquisição > Acessão (10456)</td>
+            </tr>
+            <tr onclick="location.href='#'" style="cursor: pointer;" class="align-middle">
+              <th scope="row"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
+              <td>
+                <span>656.9.492337/2023</span><br>
+                <span>8001109-18.2023.8.05.0057</span>
+              </td>
+              <td>19/12/2023</td>
+              <td>28/02/2024</td>
+              <td>PROCESSO CÍVEL E DO TRABALHO > Outros Procedimentos > Atos e expedientes > Petição Cível (241)</td>
+              <td>DIREITO CIVIL > Coisas > Propriedade > Aquisição > Acessão (10456)</td>
+            </tr>
+            <tr onclick="location.href='#'" style="cursor: pointer;" class="align-middle">
+              <th scope="row"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
+              <td>
+                <span>656.9.492337/2023</span><br>
+                <span>8001109-18.2023.8.05.0057</span>
+              </td>
+              <td>19/12/2023</td>
+              <td>28/02/2024</td>
+              <td>PROCESSO CÍVEL E DO TRABALHO > Outros Procedimentos > Atos e expedientes > Petição Cível (241)</td>
+              <td>DIREITO CIVIL > Coisas > Propriedade > Aquisição > Acessão (10456)</td>
+            </tr>
+            <tr onclick="location.href='#'" style="cursor: pointer;" class="align-middle">
+              <th scope="row"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
+              <td>
+                <span>656.9.492337/2023</span><br>
+                <span>8001109-18.2023.8.05.0057</span>
+              </td>
+              <td>19/12/2023</td>
+              <td>28/02/2024</td>
+              <td>PROCESSO CÍVEL E DO TRABALHO > Outros Procedimentos > Atos e expedientes > Petição Cível (241)</td>
+              <td>DIREITO CIVIL > Coisas > Propriedade > Aquisição > Acessão (10456)</td>
+            </tr>
+            <tr onclick="location.href='#'" style="cursor: pointer;" class="align-middle">
+              <th scope="row"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
+              <td>
+                <span>656.9.492337/2023</span><br>
+                <span>8001109-18.2023.8.05.0057</span>
+              </td>
+              <td>19/12/2023</td>
+              <td>28/02/2024</td>
+              <td>PROCESSO CÍVEL E DO TRABALHO > Outros Procedimentos > Atos e expedientes > Petição Cível (241)</td>
+              <td>DIREITO CIVIL > Coisas > Propriedade > Aquisição > Acessão (10456)</td>
+            </tr>
+            <tr onclick="location.href='#'" style="cursor: pointer;" class="align-middle">
+              <th scope="row"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></th>
+              <td>
+                <span>656.9.492337/2023</span><br>
+                <span>8001109-18.2023.8.05.0057</span>
+              </td>
+              <td>19/12/2023</td>
+              <td>28/02/2024</td>
+              <td>PROCESSO CÍVEL E DO TRABALHO > Outros Procedimentos > Atos e expedientes > Petição Cível (241)</td>
+              <td>DIREITO CIVIL > Coisas > Propriedade > Aquisição > Acessão (10456)</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="d-flex justify-content-between">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Selecionar todos os processos
+            </label>
+          </div>
+
+          <nav aria-label="...">
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Próxima</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        
+        <div class="my-3 text-end">          
+          <a href="#" class="btn btn-secondary px-2">Peticionamentos em Processamento</a>
+          <a href="#" class="btn btn-primary px-2">Assinar e Enviar</a>
+        </div>
+      </main>
+
+      <footer class="border-top text-muted">
+        <div class="container">
+          <div class="row pt-4 align-items-center">
+            <div class="col col-md-6 text-center">
+              <img
+                src="assest/img/logo_mpba.png"
+                class="img-fluid"
+                alt="Logo MPBA"
+              />
+            </div>
+            <div class="col col-md-6 text-center">
+              <a href="/privacidade.html" class="text-decoration-none text-dark"
+                >Política de Privacidade</a
+              ><br />
+              <a href="/termos.html" class="text-decoration-none text-dark"
+                >Termo de Uso</a
+              ><br />
+              <a
+                href="mailto:cogi@mpba.mp.br"
+                class="text-decoration-none text-dark"
+                >Fale Conosco</a
+              ><br />
+            </div>
+          </div>
+          <div class="row p-3 justify-content-center text-center text-dark">
+            <span
+              >&copy; 2023 | IDEA - Sistema Integrado de Dados, Estatística e
+              Atuação</span
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

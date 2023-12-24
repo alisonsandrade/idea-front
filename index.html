@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assest/css/style.css" />
+
+    <!-- Bootstrap Font Icon CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <title>IDEA 1.5 | Página Inicial</title>
+  </head>
+  <body>
+    <div class="d-flex flex-column wrapper">
+      <!-- header -->
+      <nav class="navbar navbar-expand-md navbar-light bg-light pb-0">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="assest/img/login_logo_simp.png"
+              alt=""
+              width="130"
+              height="76"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-column align-items-end"
+            id="navbarNavDropdown"
+          >
+            <!-- menu nav -->
+            <ul class="navbar-nav">
+              <li class="nav-item menu-nav">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Início</a
+                >
+              </li>
+              <li class="nav-item menu-nav">
+                <a class="nav-link" href="#">Órgão/Unidade</a>
+              </li>
+              <li class="nav-item menu-nav">
+                <a class="nav-link" href="#">Ajuda</a>
+              </li>
+              <li class="nav-item menu-nav">
+                <a class="nav-link" href="#">Sair</a>
+              </li>
+            </ul>
+
+            <!-- menu de ícones da nav -->
+            <ul class="navbar-nav flex-row">
+              <li class="nav-item">
+                <a class="nav-link py-1 pe-2 pe-sm-2" href="#"
+                  ><i class="bi bi-display"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-1 pe-2 pe-sm-2" href="#"
+                  ><i class="bi bi-clipboard-data"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-1 pe-2 pe-sm-2" href="#"
+                  ><i class="bi bi-bar-chart"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-1 pe-2 pe-sm-2" href="#"
+                  ><i class="bi bi-file-earmark-pdf"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link py-1 pe-2 pe-sm-2" href="#"
+                  ><i class="bi bi-mailbox"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button
+                    class="btn btn-primary btn-sm dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Módulo Finalístico
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Finalístico</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Protocolo/Recepção</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Tabelas Básicas</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Relatórios</a></li>
+                    <li><a class="dropdown-item" href="#">CION</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- /. div container nav -->
+      </nav>
+
+      <!-- barra de informações e menu -->
+      <div class="bg-primary">
+        <!-- barra de informações -->
+        <div class="container">
+          <div class="row py-2">
+            <div class="col">
+              <i class="bi bi-building text-white ml-4"></i>
+              <small class="text-light"
+                >1ª Promotoria de Justiça de Cícero Dantas</small
+              >
+            </div>
+            <div class="col text-end">
+              <i class="bi bi-person-circle text-white"></i>
+              <small class="text-light">Alison da Silva Andrade</small>
+            </div>
+          </div>
+        </div>
+
+        <!-- menu -->
+        <div class="bg-secondary">
+          <ul class="menu justify-content-center">
+            <li class="menu-item">
+              <div class="dropdown">
+                <button class="btn btn-outline-primary btn-sm px-4 text-white border-0 rounded-0 dropdown-toggle" type="button" id="dropdownMenuBtnCadastramento" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cadastramento
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuBtnCadastramento">
+                  <li><a class="dropdown-item" href="#">Atendimento</a></li>
+                  <li><a class="dropdown-item" href="#">Processo/Procedimento</a></li>
+                  <li><a class="dropdown-item" href="#">Documento</a></li>
+                  <li><a class="dropdown-item" href="#">Pessoa Física</a></li>
+                  <li><a class="dropdown-item" href="#">Pessoa Jurídica</a></li>
+                  <li><a class="dropdown-item" href="#">Atividade Não Procedimentais</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="dropdown">
+                <button class="btn btn-outline-primary btn-sm px-4 text-white border-0 rounded-0 dropdown-toggle" type="button" id="dropdownMenuConsulta" data-bs-toggle="dropdown" aria-expanded="false">
+                  Consulta
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuConsulta">
+                  <li><a class="dropdown-item" href="#">Consulta Geral</a></li>
+                  <li><a class="dropdown-item" href="#">Processo Judicial</a></li>
+                  <li><a class="dropdown-item" href="#">Pessoa Física</a></li>                  
+                  <li><a class="dropdown-item" href="#">Pessoa Jurídica</a></li>
+                  <li><a class="dropdown-item" href="#">Apoio Técnico</a></li>
+                  <li><a class="dropdown-item" href="#">Atividade Não Procedimentais</a></li>
+                  <li><a class="dropdown-item" href="#">Monitoramento por Órgão/Unidade</a></li>
+                  <li><a class="dropdown-item" href="#">Processo/Procedimento por Envolvido</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="dropdown">
+                <button class="btn btn-outline-primary btn-sm px-4 text-white border-0 rounded-0 dropdown-toggle" type="button" id="dropdownMenuDistribuicao" data-bs-toggle="dropdown" aria-expanded="false">
+                  Distribuição
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuDistribuicao">
+                  <li><a class="dropdown-item" href="#">Ausência</a></li>
+                  <li><a class="dropdown-item" href="#">Contador</a></li>
+                  <li><a class="dropdown-item" href="#">Equipe</a></li>                  
+                  <li><a class="dropdown-item" href="#">Exclusão</a></li>
+                  <li><a class="dropdown-item" href="#">Impedimento/Prevenção</a></li>
+                  <li><a class="dropdown-item" href="#">Movimentação Automática</a></li>
+                  <li><a class="dropdown-item" href="#">Mudança de Equipe em Lote</a></li>
+                  <li><a class="dropdown-item" href="#">Redistribuição</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item">
+              <a class="btn btn-outline-primary btn-sm text-white border-0 rounded-0 px-4" href="#" role="button"
+                >Sessão de Julgamento</a
+              >
+            </li>
+            <li class="menu-item">
+              <div class="dropdown">
+                <button class="btn btn-outline-primary btn-sm px-4 text-white border-0 rounded-0 dropdown-toggle" type="button" id="dropdownMenuOpcoes" data-bs-toggle="dropdown" aria-expanded="false">
+                  Demais Opções
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuOpcoes">
+                  <li><a class="dropdown-item" href="#">Capa</a></li>
+                  <li><a class="dropdown-item" href="#">Consulta de PDF Únicos Gerados</a></li>
+                  <li><a class="dropdown-item" href="#">Encaminhamento em Lote</a></li>                  
+                  <li><a class="dropdown-item" href="#">Extrato</a></li>
+                  <li><a class="dropdown-item" href="#">Guia de Remessa</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <main class="flex-fill container-md shadow p-4 my-md-3 bg-white rounded">
+        <h1 class="title-h1 pb-3">Página principal</h1>
+        <div class="row">          
+          <!-- aside esquerda -->
+          <div class="col-sm-12 col-md-7 col-lg-8">
+            <div class="accordion" id="accordionProcessosJudiciais">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    <i class="bi bi-bank2"></i>
+                    <span class="ms-2">Processos Judiciais</span>
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionProcessosJudiciais"
+                >
+                  <div class="accordion-body p-0 m-0">
+                    <a href="pendentes-analise.html" class="list-group-item list-group-item-action"
+                      >Peticionamento eletrônico em análise
+                      <span class="badge bg-secondary rounded-pill">14</span>
+                    </a>
+                    <a href="pendentes-envio.html" class="list-group-item list-group-item-action"
+                      >Peticionamento eletrônico pendente de envio
+                      <span class="badge bg-success rounded-pill">5</span>
+                    </a>
+                    <a href="processos-pendentes-ciencia.html" class="list-group-item list-group-item-action"
+                      >Comunicações eletrônicas pendentes de ciência
+                      <span class="badge bg-primary rounded-pill">32</span>
+                    </a>
+                    <a href="processos-pendentes-resposta.html" class="list-group-item list-group-item-action"
+                      >Comunicações eletrônicas pendentes de resposta
+                      <span class="badge bg-primary rounded-pill">10</span>
+                    </a>
+                    <a href="processos-judiciais.html" class="list-group-item list-group-item-action"
+                      >Comunicações eletrônicas com prazo expirado
+                      <span class="badge bg-danger rounded-pill">14</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-------------Acordeon CION e Rascunho--------------->
+            <div class="row mt-3">
+              <div class="col-md-12 col-lg-6 mb-3">
+                <div class="accordion" id="accordionCION">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseCION"
+                        aria-expanded="true"
+                        aria-controls="collapseCION"
+                      >
+                        <i class="bi bi-card-heading"></i>
+                        <span class="ms-2">CION</span>
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseCION"
+                      class="accordion-collapse collapse show"
+                      data-bs-parent="#accordionCION"
+                    >
+                      <div class="accordion-body p-0 m-0">
+                        <a
+                          href="#"
+                          class="list-group-item list-group-item-action"
+                          >Peticionamento(s) em análise
+                          <span class="badge bg-secondary rounded-pill"
+                            >14</span
+                          >
+                        </a>
+                        <a
+                          href="#"
+                          class="list-group-item list-group-item-action"
+                          >Processo(s) pendente de envio
+                          <span class="badge bg-success rounded-pill">5</span>
+                        </a>
+                        <a
+                          href="#"
+                          class="list-group-item list-group-item-action"
+                          >Processo(s) pendente de análise
+                          <span class="badge bg-primary rounded-pill">32</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-6">
+                <div class="accordion" id="accordionRascunho">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseRascunho"
+                        aria-expanded="true"
+                        aria-controls="collapseRascunho"
+                      >
+                        <i class="bi bi-pencil-square"></i>
+                        <span class="ms-2">Rascunhos</span>
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseRascunho"
+                      class="accordion-collapse collapse show"
+                      data-bs-parent="#accordionRascunho"
+                    >
+                      <div class="accordion-body p-0 m-0">
+                        <a
+                          href="#"
+                          class="list-group-item list-group-item-action"
+                          >Processos/Procedimentos pré-cadastrados
+                          <span class="badge bg-secondary rounded-pill"
+                            >14</span
+                          >
+                        </a>
+                        <a
+                          href="#"
+                          class="list-group-item list-group-item-action"
+                          >Rascunho(s) em análise
+                          <span class="badge bg-success rounded-pill">5</span>
+                        </a>
+                        <a
+                          href="#"
+                          class="list-group-item list-group-item-action"
+                          >Rascunho(s) em aberto
+                          <span class="badge bg-primary rounded-pill">32</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-------------Acordeon Últimos Movimentos--------------->
+            <div class="row my-3">
+              <div class="col">
+                <div class="accordion" id="accordionMovimentos">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseMovimentos"
+                        aria-expanded="true"
+                        aria-controls="collapseMovimentos"
+                      >
+                        <i class="bi bi-clock"></i>
+                        <span class="ms-2">Últimos Movimentos</span>
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseMovimentos"
+                      class="accordion-collapse collapse show"
+                      data-bs-parent="#accordionMovimentos"
+                    >
+                      <div class="accordion-body p-0 m-0">
+                        <div class="list-group">
+                          <div
+                            class="d-flex w-100 justify-content-between list-group-item"
+                          >
+                            <p class="mb-1 text-lead">
+                              <strong>626.9.59583/2023</strong> - Entrada de
+                              Carga - ALISON DA SILVA ANDRADE
+                            </p>
+                            <small class="text-body-secondary"
+                              >3 days ago</small
+                            >
+                          </div>
+                          <div
+                            class="d-flex w-100 justify-content-between list-group-item"
+                          >
+                            <p class="mb-1 text-lead">
+                              <strong>626.9.59583/2023</strong> - Entrada de
+                              Carga - ALISON DA SILVA ANDRADE
+                            </p>
+                            <small class="text-body-secondary"
+                              >3 days ago</small
+                            >
+                          </div>
+                          <div
+                            class="d-flex w-100 justify-content-between list-group-item"
+                          >
+                            <p class="mb-1 text-lead">
+                              <strong>626.9.59583/2023</strong> - Audiência
+                              Judicial - ALISON DA SILVA ANDRADE
+                            </p>
+                            <small class="text-body-secondary"
+                              >3 days ago</small
+                            >
+                          </div>
+                          <div
+                            class="d-flex w-100 justify-content-between list-group-item"
+                          >
+                            <p class="mb-1 text-lead">
+                              <strong>626.9.59583/2023</strong> - Entrada de
+                              Carga - ALISON DA SILVA ANDRADE
+                            </p>
+                            <small class="text-body-secondary"
+                              >3 days ago</small
+                            >
+                          </div>
+                          <div
+                            class="d-flex w-100 justify-content-between list-group-item"
+                          >
+                            <p class="mb-1 text-lead">
+                              <strong>626.9.59583/2023</strong> - Outras
+                              Providências - ALISON DA SILVA ANDRADE
+                            </p>
+                            <small class="text-body-secondary"
+                              >3 days ago</small
+                            >
+                          </div>
+                          <div
+                            class="d-flex w-100 justify-content-between list-group-item"
+                          >
+                            <p class="mb-1 text-lead">
+                              <strong>626.9.59583/2023</strong> - Encaminhamento
+                              ao órgão interno - ALISON DA SILVA ANDRADE
+                            </p>
+                            <small class="text-body-secondary"
+                              >3 days ago</small
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- aside lateral direita -->
+          <div class="col-md-5 col-lg-4">
+            <!-- card acesso rápido -->
+            <div class="card mb-3">
+              <ul class="list-group">
+                <li class="list-group-item active" aria-current="true">
+                  Acesso rápido
+                </li>
+                <li class="list-group-item">
+                  <a class="nav-link py-1 pr-3" href="#">
+                    <i class="bi bi-display"></i>
+                    <span class="ms-2">Mesa de Trabalho</span>
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a class="nav-link py-1 pr-3" href="#">
+                    <i class="bi bi-diagram-3"></i>
+                    <span class="ms-2">Consulta Órgãos/Unidades</span>
+                  </a>
+                </li>
+                <li class="list-group-item">
+                  <a class="nav-link py-1 pr-3" href="#">
+                    <i class="bi bi-bar-chart"></i>
+                    <span class="ms-2">Soluções BI</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- card últimas atualizações -->
+            <div class="card">
+              <ul class="list-group">
+                <li
+                  class="list-group-item list-group-item-secondary"
+                  aria-current="true"
+                >
+                  Últimas atualizações
+                </li>
+                <li class="list-group-item">
+                  14/12/2023 - Reformulação de cálculo de prazos do SEEU;
+                  remoção do atalho “Entrada da Carga”; outros
+                </li>
+                <li class="list-group-item">11/12/2023 - Novo layout</li>
+                <li class="list-group-item">
+                  01/12/2023 - Correção do “Vencimento” em avisos de processos
+                  judiciais (Mesa de Trabalho); outro
+                </li>
+                <li class="list-group-item">
+                  28/11/2023 - Prazos de avisos de processos judiciais na Mesa
+                  de Trabalho; outros
+                </li>
+                <li class="list-group-item">
+                  24/11/2023 - Priorização no envio de PICs (Integração PJe);
+                  ajustes de performance diversos; outros
+                </li>
+              </ul>
+
+              <div class="card-footer text-body-secondary">
+                <a href="#" class="btn w-100 btn-primary btn-block"
+                  >Ver todas atualizações</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="border-top text-muted">
+        <div class="container">
+          <div class="row pt-4 align-items-center">
+            <div class="col col-md-6 text-center">
+              <img
+                src="assest/img/logo_mpba.png"
+                class="img-fluid"
+                alt="Logo MPBA"
+              />
+            </div>
+            <div class="col col-md-6 text-center">
+              <a href="/privacidade.html" class="text-decoration-none text-dark"
+                >Política de Privacidade</a
+              ><br />
+              <a href="/termos.html" class="text-decoration-none text-dark"
+                >Termo de Uso</a
+              ><br />
+              <a
+                href="mailto:cogi@mpba.mp.br"
+                class="text-decoration-none text-dark"
+                >Fale Conosco</a
+              ><br />
+            </div>
+          </div>
+          <div class="row p-3 justify-content-center text-center text-dark">
+            <span
+              >&copy; 2023 | IDEA - Sistema Integrado de Dados, Estatística e
+              Atuação</span
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
